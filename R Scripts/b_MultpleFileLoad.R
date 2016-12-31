@@ -8,7 +8,7 @@ library(readr)
 library(stringr)
 
 
-path = "D:/OneDrive - Diesel Analytics/Talks/GentleIntroductionToUsingRInPowerBI/Data/MultipleFileLoadWith/"
+path = "<your working directory>"
 setwd(path)
 
 # Used to get a list of all of the files in the current working directory and it places them in a character list
