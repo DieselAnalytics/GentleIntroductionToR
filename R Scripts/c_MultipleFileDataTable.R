@@ -7,7 +7,7 @@
 library(data.table)
 library(stringr)
 
-path = "D:/OneDrive - Diesel Analytics/Talks/GentleIntroductionToUsingRInPowerBI/Data/MultipleFileLoadWith/"
+path = "<your working directory>"
 setwd(path)
 
 # All games

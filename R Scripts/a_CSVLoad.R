@@ -12,7 +12,7 @@ library(readr)
 # all of the files that you will be using in your session. Using a working directory enables you to reference
 # your files by name without having to tell R the full path.
 
-path = "D:/OneDrive - Diesel Analytics/Talks/GentleIntroductionToUsingRInPowerBI/Data/SimpleLoad"
+path = "<your working directory>"
 setwd(path)
 
 

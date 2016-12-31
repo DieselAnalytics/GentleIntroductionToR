@@ -1,5 +1,5 @@
 # Set the working directory to the path that contains your data
-path = "D:/OneDrive - Diesel Analytics/Talks/GentleIntroductionToUsingRInPowerBI/Data/PowerQuery"
+path = "<your working directory>"
 setwd(path)
 
 # Installs the R packages in that are needed in the scripts
@@ -7,6 +7,8 @@ library(readr)
 library(dplyr)
 
 # Loads the data from the "TradeBalanceInfo.csv" file into the "dataset" data frame
+path = "<your working directory>"
+setwd(path)
 dataset <- read_csv("TradeBalanceInfo.csv")
 
 
